@@ -11,12 +11,10 @@ public class Exceptiondemo {
 		}
 		catch(Exception e) {
 			System.out.println("the division is not possible");
-			
 		}
 		try {
 			int[ ] arr= {1,2,3,4};
-			System.out.println(arr[0]);
-			System.out.println(arr[4]);
+			System.out.println(arr[2]);
 		}
 		catch(Exception e1) {
 			System.out.println("you can't read the value of arr[4]");
